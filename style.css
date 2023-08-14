@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     font-family: Arial, sans-serif;
+    height: 100vh;
 }
 p {
     color: darkgreen;
