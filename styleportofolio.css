@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background-image: url(images/bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
     font-family: Arial, sans-serif;
 }
 p {
@@ -14,8 +17,12 @@ p {
     text-align: left;
     color: lightgreen;
 }
+.logo:hover {
+    border: 2px solid red ;
+    color: whitesmoke;
+}
 .name1 {
-    color: lightgray;
+    color: yellow;
     font-size: 2rem; 
     padding-left: 15px;   
     margin: 0 0 0.15rem;
@@ -74,7 +81,6 @@ main {
         text-align: center;
         margin-top: 3rem;
         padding-bottom: 15px;
-        background-color: black;
         color: whitesmoke;}
 ul {
     padding: 10px;
@@ -88,12 +94,13 @@ ul li {
 }
 ul li:hover {
     color: limegreen;
+    background-color: transparent;
 }
 
 .myemail {
     border: 1px solid red;
     border-radius: 5px; 
-    color: black;
+    color: transparent;
     padding: 10px; 
     margin-left: 20px
 }
@@ -125,3 +132,4 @@ footer {
     }
     
 }
+
